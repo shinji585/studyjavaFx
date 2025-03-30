@@ -21,7 +21,6 @@ import javafx.stage.Stage;
 
 public class ejercicio4  extends Application{
     // codigo para javafx 
-    @SuppressWarnings("exports")
     @Override
     public void start(Stage stage) throws Exception{
         Button boton1 = new Button("soy el boton 1");
@@ -61,7 +60,6 @@ public class ejercicio4  extends Application{
         stage.setTitle("hola mundo");
     }
     // metodo vbob
-    @SuppressWarnings("exports")
     public   VBox addVbox(){
           VBox vbox = new VBox();
           vbox.setPadding(new Insets(10));
@@ -91,7 +89,6 @@ public class ejercicio4  extends Application{
 
     }
     // metodo para crear el stackpanel y la forma en como debemos utilizar este 
-    @SuppressWarnings("exports")
     public StackPane addStackpane(){
         StackPane stackPane = new StackPane();
         Image imagen = new Image("file:C:\\Users\\USUARIO\\Desktop\\studyjavaFx\\demo\\src\\main\\resources\\com\\example\\bcd1036c99280a69d6175d8583b826f3.jpg");

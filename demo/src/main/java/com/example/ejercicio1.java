@@ -7,7 +7,6 @@ import javafx.stage.Stage;
 
 public class ejercicio1 extends Application {
     @Override
-    @SuppressWarnings("exports")
     public void start(Stage stage) throws Exception{
        Pane pane = new Pane();
        pane.setPrefSize(200, 200);

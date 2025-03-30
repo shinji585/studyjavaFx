@@ -7,9 +7,8 @@ import javafx.stage.Screen;
 import javafx.stage.Stage;
 
 public class ejemplo2 extends Application {
-    @SuppressWarnings("exports")
     @Override
-    public void start(Stage stage) throws Exception{
+    public void start(@SuppressWarnings("exports") Stage stage) throws Exception{
        // para que la ventana se adaptativa 
        Rectangle2D screenbound = Screen.getPrimary().getVisualBounds();
        // pasamos ese limite de pantalla a lo que seria el ancho y la altura 

@@ -10,7 +10,6 @@ import javafx.stage.Stage;
 
 public class Lgridpane extends Application{
     @Override
-    @SuppressWarnings("exports")
     public void start(Stage stage) throws Exception{
         GridPane gridPane = new GridPane();
         gridPane.setHgap(10);

@@ -1,2 +1,3 @@
 samuel,12
 santiago,13
+sebastian,0

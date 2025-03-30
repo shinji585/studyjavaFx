@@ -8,7 +8,6 @@ import javafx.stage.Stage;
 
 public class ejercicio3 extends Application {
     @Override
-    @SuppressWarnings("exports")
     public void start(Stage stage) throws Exception{
         // creamos el pane 
         Pane pane = new Pane();

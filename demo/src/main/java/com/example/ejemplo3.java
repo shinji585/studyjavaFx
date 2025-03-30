@@ -10,7 +10,6 @@ import javafx.stage.Stage;
 
 public class ejemplo3 extends Application {
     @Override
-    @SuppressWarnings("exports")
     public void start(Stage stage) throws Exception {
         // Cargar el archivo FXML
         FXMLLoader loader = new FXMLLoader(getClass().getResource("aprendiendo.fxml"));

@@ -13,7 +13,6 @@ import javafx.stage.Stage;
 
 public class ejemplo4 extends Application {
     @Override
-    @SuppressWarnings("exports")
     public void start(Stage stage) throws Exception{
         Text text = new Text(40, 40, "Hola mundo");
 

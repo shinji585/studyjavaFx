@@ -8,7 +8,6 @@ import javafx.stage.Stage;
 
 public class ejemplo5 extends Application{
     @Override
-    @SuppressWarnings("exports")
     public void start(Stage prymari){
       // creamos un panel 
       Pane panel = new Pane();

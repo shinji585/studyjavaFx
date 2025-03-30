@@ -1,7 +1,12 @@
 module com.example {
     requires javafx.controls;
     requires javafx.fxml;
+    requires javafx.graphics;
+    requires java.desktop;
 
-    exports com.example.View; // <-- Esto permite que JavaFX acceda a LoginView
-    opens com.example.View to javafx.graphics; // <-- Esto soluciona el problema de acceso reflejado
+    exports com.example;  // <-- Agrega esto para permitir que JavaFX acceda a Estudiofx
+    exports com.example.View; 
+
+    opens com.example to javafx.graphics;  // <-- Abre el paquete donde está la clase principal
+    opens com.example.View to javafx.graphics;
 }

@@ -2,6 +2,7 @@ package com.example.View;
 
 import com.example.LoginController.LoginController;
 import javafx.application.Application;
+import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.GridPane;
@@ -14,6 +15,7 @@ public class RegisterView extends Application {
     @Override
     public void start(Stage stage) {
         GridPane gridPane = new GridPane();
+        gridPane.setAlignment(Pos.CENTER);
         gridPane.setVgap(10);
         gridPane.setHgap(10);
 

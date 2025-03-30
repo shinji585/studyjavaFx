@@ -8,7 +8,6 @@ import javafx.stage.Stage;
 
 public class ejercicio2  extends Application{
     @Override
-    @SuppressWarnings("exports")
     public void start(Stage stage) throws Exception{
         Button boton = new Button("click me ");
         boton.setPrefSize(100, 50);

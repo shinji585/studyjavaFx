@@ -8,7 +8,6 @@ import javafx.stage.Stage;
 
 public class Lhyperlink extends Application{
     @Override
-    @SuppressWarnings("exports")
     public void start(Stage stage) throws Exception{
         Hyperlink link = new Hyperlink("visitar google");
 
