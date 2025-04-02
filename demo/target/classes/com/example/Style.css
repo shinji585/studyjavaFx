@@ -1,0 +1,43 @@
+/* Estilo general */
+.container {
+    -fx-background-color: linear-gradient(to right, #4A90E2, #1E3A8A);
+    -fx-padding: 20px;
+    -fx-border-radius: 15px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 10, 0, 0, 5);
+}
+
+/* Estilo para el label */
+#label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+/* Estilo para el campo de texto */
+#textField {
+    -fx-pref-width: 250px;
+    -fx-pref-height: 40px;
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #1E3A8A;
+    -fx-border-radius: 8px;
+    -fx-padding: 5px;
+}
+
+/* Estilo para el botón */
+#button {
+    -fx-background-color: #FFC107;
+    -fx-text-fill: #1E3A8A;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 8px;
+    -fx-padding: 8px 15px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 5, 0, 0, 3);
+}
+
+/* Efecto hover en el botón */
+#button:hover {
+    -fx-background-color: #FFA000;
+    -fx-text-fill: white;
+}

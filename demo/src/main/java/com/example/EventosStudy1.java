@@ -29,7 +29,7 @@ public class EventosStudy1 extends Application {
    
         // generamos el evento 
         @SuppressWarnings("unused")
-        EventHandler<ActionEvent> eventHandler = new EventHandler<ActionEvent>(){
+        EventHandler<ActionEvent> eventHandler = new EventHandler<>(){
             @Override
             public void handle(ActionEvent event){
                 if (event.getSource() == button1){
