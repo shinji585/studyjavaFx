@@ -1,0 +1,60 @@
+#root {
+    -fx-background-color: #f9fafb;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+#contenido {
+    -fx-alignment: center;
+}
+
+#formulario {
+    -fx-background-color: #ffffff;
+    -fx-padding: 20;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 10, 0.5, 0, 0);
+    -fx-pref-width: 300;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+
+.text-field {
+    -fx-pref-width: 250;
+    -fx-font-size: 14px;
+    -fx-padding: 6 10 6 10;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #ddd;
+    -fx-border-width: 1;
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-padding: 6 14;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 3, 0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+#tabla-animal {
+    -fx-pref-width: 450;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 5, 0.5, 0, 1);
+}
+
+.table-column {
+    -fx-font-size: 14px;
+    -fx-alignment: CENTER_LEFT;
+}
